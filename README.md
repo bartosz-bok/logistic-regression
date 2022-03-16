@@ -31,3 +31,13 @@ Randomly distributed points with (x, y) coordinates were created using the `rand
 ### Experiment
 
 ![](./images/labels_logistic.png)
+
+The result of the experiment can also be presented on a graph of the likehood "logit" function for individual labels.
+
+X label
+
+<img src="./images/logistic_1.png" width="540" height="400">
+
+Y label
+
+<img src="./images/logistic_2.png" width="540" height="400">
