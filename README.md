@@ -1,7 +1,7 @@
-# SVM Classification Project
+# Logistic Regression Project
 
-Support Vector Machine is supervised learning model, which can be used in classification and regression analysis.
-This project contains examples of SVM implementation.
+Logistic Regression is supervised learning model, which can be used in classification analysis.
+This project contains examples of Logistic Regression implementation.
 
 ## Used Technologies
 
@@ -13,24 +13,21 @@ Python:
 
 ## Classification
 
-SVM is one of the most popular Machine Learning methods for classification.
+Logistic Regression is the Machine Learning method used for binary (2 classes) classification.
+In this project the scikit-learn library was used.
+
+In the experiments, the class was as follows: `sklearn.linear_model.LogisticRegression(penalty='l2', solver='newton-cg')`.
 
 ### Creating Data
 
-The data was created for 3 different experiments:
-- 2 labels
-- 3 labels
-- 7 labels
+The data was created for one type of experiment: just 2 labels (for binary classification).
 
 Randomly distributed points with (x, y) coordinates were created using the `random.gauss()` function. 
 
 
-![](./images/points_raw.png)
+![](./images/labels_raw.png)
 
 
 ### Experiment
 
-![](./images/classifed_points.png)
-
-## Regression
-To be continued...
+![](./images/labels_logistic.png)
