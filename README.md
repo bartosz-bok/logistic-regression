@@ -16,7 +16,7 @@ Python:
 Logistic Regression is the Machine Learning method used for binary (2 classes) classification.
 In this project the scikit-learn library was used.
 
-In the experiments, the class was as follows: `sklearn.linear_model.LogisticRegression(penalty='l2', solver='newton-cg')`.
+In the experiments, the class was as follows: `sklearn.linear_model.LogisticRegression(penalty='l2', solver='newton-cg')`
 
 ### Creating Data
 
